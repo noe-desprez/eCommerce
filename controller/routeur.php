@@ -1,5 +1,6 @@
 <?php
 require_once File::build_path(array("controller","ControllerProduit.php"));
+require_once File::build_path(array("controller","ControllerUtilisateur.php"));
 
 if(!isset($_GET['controller'])){
 	$_GET['controller']='produit';
