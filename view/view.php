@@ -19,19 +19,19 @@
                 <div id="menu">
                     <img src="pictures/burger.png" class="logo" alt="logo" id="burger_pic">
                     <div id="sub1">
-                        <a href="../Produit/produit.html" class="button">
+                        <a href="../eCommerce" class="button">
                             <div class="button_div sub1_button">Produits</div>
                         </a>
-                        <a href="../Equipe/equipe.html" class="button">
+                        <a href="../eCommerce" class="button">
                             <div class="button_div sub1_button">Panier</div>
                         </a>
-                        <a href="../FAQ/faq.html" class="button">
+                        <a href="../eCommerce" class="button">
                             <div class="button_div sub1_button">Connexion</div>
                         </a>
-                        <a href="../Presse/presse.html" class="button">
+                        <a href="../eCommerce" class="button">
                             <div class="button_div sub1_button">Profil</div>
                         </a>
-                        <a href="../Contact/contact.html" class="button">
+                        <a href="../eCommerce" class="button">
                             <div class="button_div sub1_button">Déconnexion</div>
                         </a>
                     </div>

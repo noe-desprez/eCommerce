@@ -8,8 +8,9 @@
             $pNom=htmlspecialchars($p->get('nomProduit'));
             $pId=rawurlencode($p->get('idProduit'));
             $pImage=htmlspecialchars($p->get('imageProduit'));
-            echo "<a href=index.php?action=read&idProduit=$pId><img class=\"img\" src=\"pictures/$pImage\"></a>
-            <p><a href=index.php?action=read&idProduit=$pId>$pNom</a></p>";
+            $pPrix=htmlspecialchars($p->get('prixProduit'));
+            echo "<a id=$pId class=\"button\" href=#$pId><img class=\"img\" src=\"pictures/$pImage\"></a>
+            <p><a class=\"button\" href=#$pId>$pNom - $pPrix €</a></p>";
         }
         ?>
     </body>
